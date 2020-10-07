@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>aussieburgers</title>
+</head>
+
+<body>
+  <header>
+
+    <img src="./burger1.svg" alt="burguer icon" width="50px" height="50px">
+    <h1 class="glow">aussieburgers</h1>
+    </div>
+  </header>
+  <h2>Filter Restaurants</h2>
+  <section class="restaurants-container">
+    <!------ FILTER RESTAURANT FORMS ------>
+    <div class="filter-forms">
+      <form id="filter">
+
+        <!------ FILTER BY PRICE ------>
+        <label>
+          Price
+          <select id="priceRanges" name="prices" form="filterPrice">
+            <option value="0">Filter by price</option>
+            <option value="1">$</option>
+            <option value="2">$$</option>
+            <option value="3">$$$</option>
+            <option value="4">$$$$</option>
+            <option value="5">$$$$$</option>
+          </select>
+        </label>
+
+        <!------ FILTER BY RATING ------>
+        <label>
+          Reviews
+          <select id="rating" name="review" form="filterRating">
+            <option value="no-review">Filter by review</option>
+            <option value="Good">Good</option>
+            <option value="Very Good">Very good</option>
+          </select>
+        </label>
+
+      </form>
+    </div>
+
+    </div>
+
+    <section class="restaurant-list" id="restaurantList"></section>
+    <!--CODE INJECTED FROM JAVASCRIPT, with the restaurant cards and images-->
+  </section>
+  <footer>
+    <p>© 2020 Karan Mann</p>
+    <p> Foxes Group 🦊</p>
+    <p>
+      <a href="https://www.linkedin.com/in/karanmann84/">Linkedin</a>
+      |
+      <a href="https://github.com/karanmann">GitHub</a>
+    </p>
+    <img src="./logo.svg" alt="technigo logo" />
+    <p>Project developed during the Technigo frontend development bootcamp</p>
+    <p>
+      Icon by
+      <a href="https://www.flaticon.com/">Flaticon</a>
+    </p>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
